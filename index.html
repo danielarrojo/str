@@ -1,0 +1,116 @@
+<!-- 
+	Structuralia Responsive Container  v.1.0.0.
+	Update: 06/05/2017
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title id="main-title"></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=7,8,9,10,11" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <!-- CSS Styles-->
+
+        <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="css/menu_elastic.css" />
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        <link rel="stylesheet" type="text/css" href="css/sideMenuStyles.css" />
+        <link rel="stylesheet" type="text/css" href="css/hint.css" />
+        <link rel="stylesheet" type="text/css" href="css/tools.css" />
+
+        <link rel="stylesheet" type="text/css" href="css/temporal.css" />
+
+        <!-- js -->
+        <script src="js/snap.svg-min.js"></script>
+        <script src="js/smtModel.js"></script>
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/progressbar.js"></script>
+        <script src="js/smt-tools.js"></script>
+        <script src="js/traductor.js"></script>
+
+        
+
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="menu-wrap">
+				<nav class="menu">
+					<section class="icon-list">
+						<a id="demo_1_1p1" href="#"><i class="fa fa-caret-right"></i><span>1. Titulo del punto 1 bastante largo.</span></a>
+						<a href="#"><i class="fa fa-caret-right"></i><span>2. Titulo del punto 2 bastante largo.</span></a>
+						<a class="subap-a" href="#"><i class="fa fa-caret-right"></i><span >2.1. Titulo del punto 2.1. bastante largo.</span></a>
+						<a class="subap-a" href="#"><i class="fa fa-caret-right"></i><span >2.2. Titulo del punto 2.2. bastante largo.</span></a>
+						<a class="subap-a" href="#"><i class="fa fa-caret-right"></i><span >2.3. Titulo del punto 2.3. bastante largo.</span></a>
+						<a href="#"><i class="fa fa-caret-right"></i><span>3. Titulo del punto 3 bastante largo.</span></a>
+					</section>
+				</nav>
+				<div id="side-menu-tools">
+						<div id="smt-documentation" >
+							<i class="fa fa-file-text-o " aria-hidden="true" ></i>
+						</div  >
+						<div id="smt-stats">
+							<i class="fa fa-bar-chart" aria-hidden="true"></i>
+						</div>
+						<div id="smt-help">
+							<i class="fa fa-info-circle" aria-hidden="true"></i>
+						</div>
+					</div>
+				<button class="close-button" id="close-button">Close Menu</button>
+				<div class="morph-shape" id="morph-shape" data-morph-open="M-1,0h101c0,0,0-1,0,395c0,404,0,405,0,405H-1V0z">
+					<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100 800" preserveAspectRatio="none">
+						<path d="M-1,0h101c0,0-97.833,153.603-97.833,396.167C2.167,627.579,100,800,100,800H-1V0z"/>
+					</svg>
+				</div>
+			</div>
+			<div id="header-bar">
+				<button class="menu-button" id="open-menu-button">Open Menu</button>
+				<div id="header-bar-title" >Titulo del Curso</div>
+				<button class="fa fa-times fa-2x" id="close-course-button"></button>
+				<div id="header-image"></div>
+				
+			</div>
+
+			<!-- Bread Crumb Container-->
+			<section id="breadcrum-container">
+				
+			</section>
+			
+			<!--Content Elements -->
+			<div class="content-wrap">
+				<div id="smt-content" class="content">
+				</div>
+			</div>
+			<!-- /Content Elements -->
+
+		</div>
+		<!-- /Container -->
+
+		<!--Footer Elements -->
+
+		<section id = "back_butt" class="back-button-section">
+			<div class="back-button-inner">
+				<i class="fa fa-undo" aria-hidden="true"></i>
+				<div id="back-button"></div>
+			</div>
+		</section>
+		<footer class="footer-bar">
+			<button class="fa fa-chevron-circle-left fa-2x" id="left-button"></button>
+			<p id="smt-partial-total"></p>
+			<button class="fa fa-chevron-circle-right fa-2x" id="right-button"></button>
+		</footer>
+		<!-- /Footer Elements -->
+
+
+		<script>
+			$( document ).ready(function() {
+  				initDemo();
+			});
+		</script>
+		<script src="js/classie.js"></script>
+		<script src="js/main3.js"></script>
+	</body>
+	</html>

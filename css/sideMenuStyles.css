@@ -1,0 +1,31 @@
+
+
+/* Botonera inferior menu herramientas */
+
+#side-menu-tools {
+	position: absolute; 
+	bottom: 0px; 
+	width: 100%;
+	height: 40px;
+	z-index: 1001;
+}
+
+#side-menu-tools div{
+	float: left;
+	height: 40px;
+	width: 33%;
+	border-top: 1px solid gray;
+	border-right: 1px solid gray;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#side-menu-tools i{
+	margin-top: 10px;
+	cursor: pointer;
+	color:gray;
+	transition:all 300ms;
+}
+#side-menu-tools i:hover{
+	color:white;
+}

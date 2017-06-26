@@ -1,0 +1,333 @@
+header {
+	font-family: 'Comfortaa', cursive;
+	font-size: 1.6em;
+	width: 100%;
+	height: auto;
+	color: darkgray;
+	text-align: center;
+	padding-top: 20px;
+	background-color: white;
+
+}
+
+/* DOCUMENTATION SETTINGS*/
+
+.doc-box {
+	width: 90%;
+	margin: 10px auto;
+	height: auto;
+	background-color: #F8F8FF;
+	padding: 10px;
+	border: 1px solid lightgray;
+	border-radius: 10px;
+	cursor: pointer;
+	transition:all 200ms;
+}
+
+.doc-box:hover{
+	opacity: 0.8;
+	box-shadow: 0px 0px 6px rgba(0,0,0,0.4);
+}
+
+.doc-box img {
+	float:left;
+	width: 50px;
+	height: auto;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.doc-box p{
+	text-align: justify;
+	font-family: 'Comfortaa', cursive;
+	font-size: 12px;
+	display: inline-block;
+	width: 79%;
+	height: auto;
+	margin-left: 8px;
+	margin-top: 8px;
+}
+
+/* STATS SETTINGS */
+
+#stats-time-box-percentage {
+	float: left;
+	width: 50%;
+	height: auto;
+}
+
+
+#stats-percentage-circle{
+	position:relative;
+	width:70%;
+	height:100%;
+	padding: 0;
+    margin: 0 auto;
+	font-size:32px;
+	font-weight:regular;
+	text-align:center;
+}
+#stats-percentage-text {
+	font-size: 12px;
+	text-align: center;
+	width: 100% !important;
+	height: 14px;
+}
+
+#percentage_container {
+	position:relative;
+	width:100%;
+	height:100%;
+	padding: 0;
+    margin: 0 auto;
+	text-align:center;
+}
+
+#percentage_text {
+	margin-top:10px;
+	font-size:16px;
+	color:gray;
+	text-align:center;
+}
+
+
+#stats-time-box-pages {
+	float: right;
+	width: 50%;
+	height: 120px;
+}
+
+
+#stats-pages-circle{
+	position:relative;
+	width:70%;
+	height:100%;
+	padding: 0;
+    margin: 0 auto;
+	font-size:32px;
+	font-weight:regular;
+	text-align:center;
+}
+#stats-pages-text {
+	font-size: 12px;
+	text-align: center;
+	width: 100% !important;
+	height: 14px;
+}
+
+#pages_container {
+	position:relative;
+	width:100%;
+	height:100%;
+	padding: 0;
+    margin: 0 auto;
+	text-align:center;
+}
+
+#pages_text {
+	margin-top:10px;
+	font-size:16px;
+	color:gray;
+	text-align:center;
+}
+
+
+#stats-user-box {
+	font-family: 'Comfortaa', cursive;
+	width: 90%;
+	margin: 10px auto;
+	height: auto;
+	background-color: #F8F8FF;
+	padding: 10px;
+	border: 1px solid lightgray;
+	border-radius: 10px;
+}
+
+#stats-user-box h4{
+	float:left;
+	width: 75%;
+	padding: 0px;
+	margin: 4px;
+	margin-left: 10px;
+	webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
+}
+
+#stats-user-icon {
+	float:left;
+	width: 60px;
+	height: 60px;
+	background: url("../imgs/icon-user-default.png");
+	background-repeat: no-repeat;
+    background-size: contain;
+    border: 0;
+	outline: none;
+	border-radius: 30px;
+	
+}
+
+#stats-user {
+	color: gray;
+}
+
+
+#stats-timer-box {
+	font-size: 12px;
+	float: left;
+	width: 50%;
+	height: auto;
+}
+
+#stats-timer-icon{
+	width: 15%;
+	height: auto;
+} 
+
+#stats-timer-group{
+	float: right;
+	width: 85%;
+	height: auto;
+
+}
+
+#stats-timer-total, #stats-timer-actual {
+	width: 90%;
+	height: auto;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+
+/* HELP CSS */
+
+
+
+/* DEMO DELETEME */
+
+#sampleMovie_container {
+	width: 100%;
+	height: auto;
+}
+
+#sampleMovie {
+	width: 320px;
+	height: auto;
+	position: relative;
+  	left: 50%;
+  	transform: translateX(-50%);
+}
+
+
+@media only screen and (min-width: 768px) {
+	.doc-box {
+		width: 50%;
+	}
+	#doc_background {
+		position: relative;
+	}
+	#doc_background:before  {
+		content: "";
+  		position: absolute;
+  		top: 0;
+  		bottom: 0;
+  		left: 0;
+  		right: 0;
+		background-image: url("/content/imgs/doc_background.jpg");
+   		height: 100%; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.1;
+	}
+
+	#stats-user-box {
+		max-width: 500px;
+	}
+	#stats_background {
+		position: relative;
+		width: 100%;
+		height: 90%;
+	}
+	#stats_background:before  {
+		content: "";
+  		position: absolute;
+  		top: 0;
+  		bottom: 0;
+  		left: 0;
+  		right: 0;
+		background-image: url("/content/imgs/stats_background.jpg");
+   		height: 100%; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.1;
+	}
+
+	#stats-user-box h4{
+		margin-top: 20px;
+		display: inline-block;
+		
+	}
+	#stats-user {
+		width:15% !important;
+	}
+	#stats-username {
+		width: 65% !important;
+	}
+	#stats-timer-icon{
+		width: 10%;
+	}
+	#stats-time-box-percentage {
+		max-width: 300px;
+	}
+	#stats-time-box-pages {
+		max-width: 300px;
+	}
+	#stats-timer-actual-title,  #stats-timer-total-title{
+		float: left;
+		width: 70%;
+		font-size: 12px;
+		margin-top: 4px;
+		margin-left: -10px;
+		text-align: center;
+	}
+	#stats-timer-actual, #stats-timer-total {
+
+		text-align: left;
+		float: right;
+		width: 29%;
+		margin-top: 2px;
+		margin-right: 12px;
+
+	}
+	#sampleMovie {
+		width: 640px;
+	}
+
+	#help_background {
+		position: relative;
+		width: 100%;
+		height: 90%;
+	}
+	#help_background:before  {
+		content: "";
+  		position: absolute;
+  		top: 0;
+  		bottom: 0;
+  		left: 0;
+  		right: 0;
+		background-image: url("/content/imgs/help_background.jpg");
+   		height: 100%; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.1;
+	}
+}
+
+
+
+

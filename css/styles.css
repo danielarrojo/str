@@ -1,0 +1,203 @@
+/* Fuentes usadas en el curso */
+/* La ruta será fonts/fuenteausar */
+
+
+
+/* new clearfix */
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+* html .clearfix { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+@font-face {
+    font-family: 'Comfortaa', cursive;
+    src: url(fonts/comfortaa/Comfortaa-Regular.ttf);
+}
+
+body {
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+     -moz-user-select: none;     /* Firefox all */
+     -ms-user-select: none;      /* IE 10+ */
+      user-select: none;   
+      border:none;
+}
+
+
+/* Elementos cabecera del curso */
+
+#header-bar { /* Barra de la cabecera */
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	float: left;
+	width: 100%;
+	height: 2.5em;
+	background-color: #fb8f0b;
+}
+
+#header-bar-title { /* Titulo de la cabecera */
+	position: relative;
+	height:auto;
+	font-family: 'Comfortaa', cursive;
+	display: inline-block;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: white;
+	padding: 0.4em;
+	margin-left: 2em;
+}
+
+
+#header-image {
+	float:right;
+	width:80px;
+	height: 80%;
+	background-repeat: no-repeat;
+    background-size: contain;
+	background-image:url('../imgs/logo_STR.png');
+	border:0;
+	text-indent: -999px;
+	outline: none;
+	margin-top: 12px;
+}
+
+
+#close-course-button { /* Botón cierre de la cabecera */
+	background-color: transparent;
+	text-decoration: none;
+	color: white;
+	border: none;
+	float: right;
+}
+
+#close-course-button:hover {
+	color: lightgray;
+}
+
+
+.subap-a {
+	margin-left: 20px !important;
+}
+
+/* Footer Elements */
+
+.footer-bar {
+	position: absolute; 
+	bottom: 0px; 
+	width: 100%;
+	height: 40px;
+	background-color: lightgray;
+	text-align: center;
+}
+
+#left-button { /* Botón cierre de la cabecera */
+	background-color: transparent;
+	text-decoration: none;
+	color: gray;
+	border: none;
+	float: left;
+	padding-top: 4px;
+	display: inline-block;
+}
+
+#left-button:hover {
+	color: #fb8f0b;
+}
+
+#right-button { /* Botón cierre de la cabecera */
+	background-color: transparent;
+	text-decoration: none;
+	color: gray;
+	border: none;
+	float: right;
+	padding-top: 4px;
+}
+
+#right-button:hover {
+	color: #fb8f0b;
+}
+
+#smt-partial-total {
+	display: inline-block;
+	margin: auto 0;
+	width: 30px;
+	height: 40px;
+	font-family: 'Comfortaa', cursive;
+	padding-top: 12px;
+
+}
+
+/* BACK BUTTON STYLES*/
+
+.back-button-section{
+	width: 100%;
+	height: auto;
+	position: absolute; 
+	bottom: 50px; 
+
+}
+
+.back-button-inner{
+	width: 170px;
+	height: 20px;
+	padding-top: 4px;
+	border-radius: 16px;
+	font-family: 'Comfortaa', cursive;
+	font-size: 12px;
+	background-color: #fb8f0b;
+	color: white;
+	cursor: pointer;
+	margin: 0 auto;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, .7);
+
+}
+.back-button-inner:hover{
+	opacity: 0.8;
+}
+.back-button-inner i{
+	padding-top: 2px;
+	text-align: right;
+	width: 15%;
+	height: auto;
+}
+.back-button-inner div{
+	padding-top: 1px;
+	margin-left: 2px;
+	float: right;
+	text-align: left;
+	width: 80%;
+	height: auto;
+}
+
+
+/* BREAD CRUMB*/
+
+#breadcrum-container{
+	font-family: 'Comfortaa', cursive;
+	font-size: 10px;
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	margin-left: 10px;
+	border-bottom: 1px solid rgba(251, 143, 11, 0.2);
+}
+
+#bread-level-sup, #bread-level-inf, #bread-separator {
+	cursor: pointer;
+	display: inline-block;
+	margin: 2px;
+}
+#bread-level-sup:hover, #bread-level-inf:hover, #bread-separator:hover{
+	opacity: 0.5;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+}
+
+
+
+
+
+
+

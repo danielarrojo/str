@@ -1,0 +1,14 @@
+#temp_header {
+	font-family: 'Comfortaa', cursive;
+}
+
+.temp_logo {
+	width: 90%;
+	max-width: 600px;
+	height: auto;
+	position: relative;
+  	left: 50%;
+  	transform: translateX(-50%);
+  	margin-top: 50px;
+
+}

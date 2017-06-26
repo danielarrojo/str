@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Statistics</title>
+</head>
+<body>
+ 	<header id="stats_header" class="clearfix"></header>
+ 	<div id="stats_background">
+	 	<section class="clearfix" id="stats-user-box">
+	 		<div id="stats-user-icon"></div>
+	 		<h4 id="stats-user"></h4>
+	 		<h4 id="stats-username"></h4>
+	 	</section>
+	 	<section class="clearfix" id="stats-user-box">
+	 		<div id="stats-time-box-percentage">
+	 			<div id="stats-percentage-circle"></div>
+	 		</div>
+	 		<div id="stats-time-box-pages">
+	 			<div id="stats-pages-circle"></div>
+	 			<h4 id="stats-pages-text"></h4>
+	 		</div>
+	 	</section>
+	 	<section class="clearfix" id="stats-user-box">
+	 		<div id="stats-timer-box">
+	 			<i id = "stats-timer-icon" class="fa fa-clock-o fa-2x"  style="color: gray" aria-hidden="true"></i>
+	 			<div id="stats-timer-group">
+	 				<div id="stats-timer-actual-title"></div>
+	 				<div id="stats-timer-actual"></div>
+	 			</div>
+	 		</div>
+	 		<div id="stats-timer-box">
+	 			<i id = "stats-timer-icon" class="fa fa-clock-o fa-2x"  style="color: gray" aria-hidden="true"></i>
+	 			<div id="stats-timer-group">
+	 				<div id="stats-timer-total-title"></div>
+	 				<div id="stats-timer-total"></div>
+	 			</div>
+	 		</div>
+	 	</section>
+	 </div>
+ 	<script>
+		$( document ).ready(function() {
+  			initStats();
+		});
+	</script>
+
+</body>
+</html>
